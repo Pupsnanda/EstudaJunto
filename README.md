@@ -149,25 +149,3 @@ Este projeto foi pensado para rodar no **Expo Go**, sem necessidade de developme
 ```bash
 npx expo start --go
 ```
-
-## 10. Sugestão de commits para GitHub
-
-```bash
-git init
-git add .
-git commit -m "Cria estrutura inicial do app EstudaJunto"
-git commit -m "Implementa banco SQLite e CRUD de monitorias"
-git commit -m "Adiciona telas de listagem, cadastro, edição e detalhes"
-git commit -m "Finaliza README e roteiro de apresentação"
-```
-
-## 11. Como apresentar o código
-
-Na apresentação, mostre principalmente:
-
-1. `App.js`: navegação entre telas.
-2. `src/database/database.js`: criação da tabela e funções CRUD.
-3. `src/screens`: telas principais do app.
-4. `src/components`: componentes reutilizáveis.
-5. Demonstração prática criando, editando e excluindo um cadastro.
-
